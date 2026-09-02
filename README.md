@@ -4,5 +4,5 @@ Al no contar con el diccionario de datos completo del ejercicio original, se asu
 
 Conclusiones: El ejercicio cubrió el ciclo completo de manipulación de datos en SQL: lectura, análisis agregado, actualización y eliminación.
 `GROUP BY` y `HAVING` resultaron esenciales para responder preguntas de negocio (ingresos por estado, promedios por categoría) sin procesar datos fuera de la base.
-Las operaciones de escritura (`UPDATE`, `DELETE`) exigen condiciones `WHERE` precisas; verificar con `SELECT` antes de ejecutarlas es clave para evitar cambios no intencionados.
+Las operaciones de escritura `UPDATE`, `DELETE` exigen condiciones `WHERE` precisas; verificar con `SELECT` antes de ejecutarlas es clave para evitar cambios no intencionados.
 Contar con un modelo entidad-relación claro antes de escribir consultas evita ambigüedades como las encontradas en los nombres de columnas de este ejercicio
